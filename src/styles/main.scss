@@ -7,8 +7,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  Roboto, sans-serif;
-    color: variaveis.$corTextoPrincipal;
+    color: variaveis.$corTextoPrincipal; 
 }
+
+body, html {
+    @media (max-width: 768px) {
+        overflow-x: hidden;
+    }
+
+    @media (max-width: 1024px) {
+        overflow-x: hidden;
+    }
+}
+
 
 .container {
     max-width: 960px;

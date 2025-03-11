@@ -1,10 +1,10 @@
 @use 'variaveis';
 
 .hero {
-    background: url(../birthday_images/aniversario_fundo_2.jpg) no-repeat;
+    background-image: url(../birthday_images/aniversario_fundo_2.jpg);
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    height: 700px;
     
 
 
@@ -87,11 +87,10 @@
 
     @media (max-width: 1024px) {
         background-size: cover;
-        height: 600px;
+        height: 600px;  
 
         &__content {
             display: inline;
-            text-align: center;
             
             &__title {
                 margin: 0 auto;
@@ -108,7 +107,7 @@
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 740px) {
 
         &__content {
             display: block;
@@ -128,14 +127,15 @@
         &__promo {
             margin-top: 150px;
 
-        .container {
-            
-            width: 400px;
-        }
-            
+            .container {
+                
+                width: 80%;
+            }
+                
             &__list {
                 display: block;
-            }
+                width: 80%;
+                }
 
             &__item {
                 margin-bottom: 20px;
